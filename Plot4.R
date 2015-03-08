@@ -14,7 +14,8 @@ plot4 <- function(){
   
   t <- strptime(paste(dtSub$Date, dtSub$Time), format = "%d/%m/%Y %H:%M:%S")
   
-  png(file = "plot4.png", width = 480, height = 480) #, pointsize = 10)  
+  # write to PNG
+  png(file = "plot4.png", width = 480, height = 480) 
   par(mfrow = c(2, 2))
   
   # subplot 1,1
@@ -40,6 +41,6 @@ plot4 <- function(){
   
   # write to PNG
   dev.off()
-  #dev.print(png, file = "plot4.png", width = 480, height = 480, pointsize = 10)  
+  
   
 }

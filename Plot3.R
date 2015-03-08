@@ -11,6 +11,8 @@ plot3 <- function(){
   class(dtSub$Sub_metering_2) <- "numeric"
   class(dtSub$Sub_metering_3) <- "numeric"
   
+  # write to PNG
+  png(file = "plot3.png", width = 480, height = 480) 
   
   t <- strptime(paste(dtSub$Date, dtSub$Time), format = "%d/%m/%Y %H:%M:%S")
   
@@ -25,6 +27,6 @@ plot3 <- function(){
   legend("topright", legend = legNames, lty = 1, col = colorNames, bty = "n")
   
   # write to PNG
-  dev.print(png, file = "plot3.png", width = 480, height = 480)  
+  dev.off() 
   
 }
