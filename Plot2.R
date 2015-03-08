@@ -1,5 +1,5 @@
 ## Plot2.R - Reproduce Plot 2 in Programming Assignemnt 1 - Exporatory Data Analysis
-# The first plot (aka \figures\unnamed-chunk-3.png) is a line-plot (plot of type line)
+# The second plot (aka plot2.png or \figures\unnamed-chunk-3.png) is a line-plot (plot of type line)
 plot2 <- function(){
   
   fileName <- "household_power_consumption.txt"

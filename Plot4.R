@@ -1,5 +1,9 @@
 ## Plot4.R - Reproduce Plot 4 in Programming Assignemnt 1 - Exporatory Data Analysis
-# The fourth plot (aka \figures\unnamed-chunk-6.png) has 4 subplots
+# The fourth plot (aka \figures\unnamed-chunk-6.png) has 4 subplots.
+# I found that the calling 
+# png(), plots(), etc, dev.off() 
+# got the siZes correct, as opposed to the dev.print() version which stuffed up
+# the legend :-(
 plot4 <- function(){
   
   fileName <- "household_power_consumption.txt"

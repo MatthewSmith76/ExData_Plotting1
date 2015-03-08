@@ -1,5 +1,9 @@
 ## Plot3.R - Reproduce Plot 3 in Programming Assignemnt 1 - Exporatory Data Analysis
-# The first plot (aka \figures\unnamed-chunk-4.png) is a line-plot, with 3 lines
+# The third plot (aka plot3.png or \figures\unnamed-chunk-4.png) is a another 
+# line-plot with 3 lines and a legend. I found that the calling 
+# png(), plots(), etc, dev.off() 
+# got the siZes correct, as opposed to the dev.print() version which stuffed up
+# the legend :-(
 plot3 <- function(){
   
   fileName <- "household_power_consumption.txt"

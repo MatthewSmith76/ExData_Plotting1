@@ -1,5 +1,5 @@
 ## Plot1.R - Reproduce Plot 1 in Programming Assignemnt 1 - Exporatory Data Analysis
-# The first plot (aka \figures\unnamed-chunk-2.png) is a histogram
+# The first plot (aka plot1.png or \figures\unnamed-chunk-2.png) is a histogram
 plot1 <- function(){
   
   fileName <- "household_power_consumption.txt"
